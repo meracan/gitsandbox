@@ -20,6 +20,12 @@ def main(*argv):
         # merge worked fine above. lets try pushing
         # testing merge conflicts
     
+    def method_dont_overwrite():
+        x = 6
+        """ nice script you got here, would be a shame if 
+            someone were to overwrite this...
+        """
+    
     print("...done.\n")
     
 
