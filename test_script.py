@@ -12,8 +12,12 @@ def main(*argv):
     print("testing...")
     for a in argv:
         print(a)
+    
+    def new_method():
+        print("testing")
+    
     print("...done.\n")
-
+    
 
 if __name__ == "__main__":
     main(sys.argv)
