@@ -14,7 +14,8 @@ def main(*argv):
         print(a)
     
     def new_method():
-        print("testing")
+        print("testing...this print statement has been edited")
+        # merge worked fine above. lets try pushing
     
     print("...done.\n")
     
