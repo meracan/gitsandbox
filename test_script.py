@@ -15,7 +15,8 @@ def main(*argv):
     
     def new_method():
         print("testing...this print statement has been edited")
-        # merge worked fine above. lets try pushing
+        print("new statement, but will change and commit to both the remote")
+        print("and local to see what happens.")
     
     print("...done.\n")
     
